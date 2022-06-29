@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## About me
 
-You can use the [editor on GitHub](https://github.com/timcast725/timcast725.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+My name is Timothy Castiglia. I received my Bachelor's in Computer Science from Rensselaer Polytechnic Institute in 2017 and I am currently pursuing a PhD in Computer Science at the same university. My graduation is expected to be in May 2023. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Research
 
-### Markdown
+My work is focused on Federated Learning (FL), a distributed machine learning scenario with several
+clients and a parameter server collaboratively training a global model for a predictive task. 
+In an FL scenario, training data is privately owned by the clients, and the data distribution
+is imposed on the system. FL scenarios often face high communication costs,
+due to high message latency, power limitations, or network restrictions. My ongoing work is focused
+around designing FL algorithms to provide client data privacy, to accommodate for different FL data
+distributions, and to be communication-efficient by design. My work provides theoretical convergence
+analysis of these algorithms, as well as empirical evidence of their improvements over existing FL algorithms.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Contact
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/timcast725/timcast725.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+You can contact me at ```castigliatim dot gmail.com```.
