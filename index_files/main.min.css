@@ -4,3 +4,34 @@
 html {
   scroll-behavior: smooth;
 }
+.container {
+     position: relative;
+     width: 100%;
+  }
+
+
+.overlay {
+    position: absolute;
+    height:100%;
+    width:100%;
+    background-color: lightblue;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+  .container:hover .overlay {
+    opacity: 1;
+}
+.textoverlay{
+    position:absolute;
+    height:90%;
+    width:90%;
+    top:5%;
+    left:5%;
+    transform: translate(0%, 5%);
+    -ms-transform: translate(0%, 0%);
+}
